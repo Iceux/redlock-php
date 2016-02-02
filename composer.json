@@ -1,0 +1,22 @@
+{
+    "name": "iceux/redlock-php",
+    "description": "Redis distributed locks in PHP base on Redlock algorithm",
+    "authors": [
+        {
+            "name": "Iceux",
+            "email": "liubinzh@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "~5.4",
+        "ext-redis": "~2.2.5"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "RedLock\\": "src"
+        }
+    }
+
+
+}
